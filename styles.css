@@ -5,8 +5,8 @@ body {
 }
 
 #level-title {
-  font-size: 3rem;
-  margin:  5% 5% 2%;
+  font-size: 2rem;
+  margin:  2% 5%;
   color: #FEF2BF;
 }
 
@@ -15,10 +15,10 @@ body {
   border-radius: 10px;
   cursor: pointer;
   font-family: 'Press Start 2P', cursive;
-  font-size: 2rem;
-  height: 100px;
-  margin: 2rem;
-  width: 250px;
+  font-size: 1.5rem;
+  height: 80px;
+  margin: 0.5rem;
+  width: 200px;
   transition: background-color 200ms ease-in,
               color 200ms ease-in;
 }
@@ -44,10 +44,10 @@ body {
 }
 
 .btn {
-  margin: 25px;
+  margin: 20px;
   display: inline-block;
-  height: 200px;
-  width: 200px;
+  height: 150px;
+  width: 150px;
   border: 10px solid black;
   border-radius: 20%;
   cursor: pointer;
@@ -105,10 +105,10 @@ body {
   }
 }
 
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 410px) {
   .btn {
-    height: 75px;
+    height: 95px;
     margin: 10px;
-    width: 75px;
+    width: 95px;
   }
 }

@@ -30,7 +30,7 @@ function simon() {
     constructor (id, elem) {
       this.elem = elem;
       this.id = id;
-      this.sound = new Audio(`https://www.dumpsterfirema.com/sounds/${id}.mp3`);
+      this.sound = new Audio(`./sounds/${id}.mp3`);
     }
 
     animation = (automated) => {
@@ -121,7 +121,7 @@ function simon() {
       }
     } else {
       elem.sound.pause();
-      let wrongAudio = new Audio('https://www.dumpsterfirema.com/sounds/wrong.mp3');
+      let wrongAudio = new Audio('./sounds/wrong.mp3');
       wrongAudio.play();
 
       gameOver();
